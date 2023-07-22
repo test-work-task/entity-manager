@@ -15,11 +15,8 @@ function App() {
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
-    if(status === null) {
-      dispatch(fetchEntities())
-    }
+    dispatch(fetchEntities())
   }, [])
-  
 
   const createEntity = async (entity: IEntity) => {
     dispatch(addEntity(entity))
@@ -43,9 +40,9 @@ function App() {
         width={70}
         height={50}
       />
-      <Chart {...{entities}} />
+      <Chart {...{ entities }} />
       <Popup
-        loading={status === 'loading' ? true: false }
+        loading={status === 'loading' ? true : false}
         handleClose={() => setIsOpen(false)}
         title='New Entity'
         handleSubmit={createEntity}
