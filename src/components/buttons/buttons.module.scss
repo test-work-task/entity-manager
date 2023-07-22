@@ -1,0 +1,20 @@
+.add {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    span, span::after {
+        display: block;
+        width: 60%;
+        height: 2px;
+        background-color: #3eb3d4;
+    }
+    span::after {
+        content: '';
+        width: 100%;
+        transform: rotate(90deg);
+    }
+}

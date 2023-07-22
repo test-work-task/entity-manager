@@ -1,0 +1,36 @@
+.value {
+    border: solid 1px #83888e;
+    padding: 10px;
+    background-color: #313136;
+    color: #e8eaed;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+}
+
+.coordinate {
+    display: flex;
+    align-items: center;
+    div {
+        flex: 1;
+    }
+}
+
+.edit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30px;
+    border: none;
+    background-image: url('../../assets/images/pen.svg');
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 20px;
+    background-color: transparent;
+    opacity: .7;
+
+    &:hover {
+        opacity: 1;
+    }
+}

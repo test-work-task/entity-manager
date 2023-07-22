@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: 70px 1fr 1fr 2fr;
+    width: 100vw;
+    align-items: stretch;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    border: solid 1px #83888e;
+    box-sizing: border-box;
+}
+.label {
+    padding: 10px;
+    background-color: #202124;
+    border: solid 1px #83888e;
+    display: flex;
+    align-items: center;
+    color: #3eb3d4;
+    font-weight: 700;
+    font-size: 26px;
+}
+.logo {
+    width: 100%;
+}
