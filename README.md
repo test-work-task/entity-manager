@@ -17,6 +17,7 @@ The "Entity Manager" project is based on the following technologies:
 - Backend:
   - Node.js
   - Express
+  - MongoDB
 
 
 ## Main Features
